@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- import style.css file and bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
 <body>
-
+  <!-- Create navbar with dropdown menu for plots -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" id="lat" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -42,7 +43,7 @@
             </ul>
         </div>
     </nav>
-
+    <!-- Create a container with one row, and one column the entire width of the page -->
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -58,6 +59,7 @@
         </div>
         <div class="row">
             <div class="table-responsive">
+              <!-- Paste HTML generated from jupyter notebook here -->
                 <table border="1" class="dataframe">
                     <thead>
                       <tr style="text-align: right;">
@@ -6644,7 +6646,7 @@
         </div>
 
 
-
+        <!-- import bootstrap js -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>

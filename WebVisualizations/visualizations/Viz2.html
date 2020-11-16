@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latitude vs. Humidity</title>
-
-    <link rel="stylesheet" type="text/css" href="../style.css">
+    <!-- import style.css file and bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
@@ -16,7 +16,7 @@
 
 
 
-
+    <!-- Create navbar with dropdown menu for plots -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" id="lat" href="../index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -50,8 +50,10 @@
 
 
 
+    <!-- Create a container with a single row -->
     <div class="container">
         <div class="row">
+            <!-- First column is 2/3 width of page and contains enlarged visualization -->
             <div class="col-sm-8">
                 <h2>Humidity</h2>
                 <hr>
@@ -68,7 +70,7 @@
                     of the earth at the time of the year this data was gathered.
                 </p>
             </div>
-
+            <!-- Second column is 1/3 width of page and contains all plot options -->
             <div class="col-sm-4" id="Cloudy-Map">
                 <h4>Visualizations</h4>
                 <hr>
@@ -89,7 +91,7 @@
         </div>
     </div>
 
-
+    <!-- import bootstrap js -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
