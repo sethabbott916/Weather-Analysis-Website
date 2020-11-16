@@ -10,8 +10,8 @@ Git clone to your local drive and open the index.html file to view our website!
 
 ### Prerequisites
 
-Active environment has Pandas library installed if you want to run the ipynb file!
-Internet browser installed if you want to view the website!
+* Active environment has Pandas library installed if you want to run the ipynb file!
+* Internet browser installed if you want to view the website!
 
 ## Authors
 
